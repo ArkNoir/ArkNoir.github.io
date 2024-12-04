@@ -1,3 +1,6 @@
+body {
+background-color: darkgrey
+}
 img {
   width:50%;
 }
@@ -16,5 +19,12 @@ img {
 .disabled {
   		opacity: 0.6;
   		cursor: not-allowed;
+}
+navbar {
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
 }
 
