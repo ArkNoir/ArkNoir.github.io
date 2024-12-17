@@ -27,27 +27,33 @@ button{
   		cursor: not-allowed;
 }
 ul {
- list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
+		 list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		}
+		
 li {
-  float: left;
-}
-
+		  float: left;
+		}
+		
 li a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
-}
+		  display: block;
+		  padding: 8px;
+		  background-color: #dddddd;
+		}
 .header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
-}
-
-
+		  padding: 60px;
+		  text-align: center;
+		  background: #1abc9c;
+		  color: white;
+		  font-size: 30px;
+		}
+.avatar {
+		        	border-radius: 50%;
+		        }
+ .bar{
+		        	float: right;
+		        	background: ffffff;
+		            width: 100%;
+		        }
