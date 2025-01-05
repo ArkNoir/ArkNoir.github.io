@@ -63,3 +63,9 @@ li a {
   				margin-right: auto;
   				width: 50%;
 			}
+footer {
+  				background-color: #2d192;
+  				padding: 10px;
+  				text-align: center;
+  				color: white;
+			}
