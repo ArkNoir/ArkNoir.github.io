@@ -1,5 +1,15 @@
+//darkmode switcher//
+:root {
+	--base-color: white ;
+	--base-variant: #e8e9ed ;
+	--text-color: 111528
+	--secondary-text: #052f3d ;
+	--primary-color: #2d1d92 ;
+	--accent-color: #6658BD ;
+}
+//darkmode switcher//
 body {
-background-color:  #f2f2f2
+background-color:  var (--base-color)
 }
 img {
         	width: 50%;
@@ -11,7 +21,7 @@ img {
         	width: 75%;
         }
 button{
-		background-color: #f2f2f2;
+		background-color: var (e8e9ed);
 		border: 1px dark blue;
 		color:white;
 		padding: x20 px32;
@@ -40,12 +50,12 @@ li {
 li a {
 		  display: block;
 		  padding: 8px;
-		  background-color: #dddddd;
+		  background-color: var (e8e9ed);
 		}
 .header {
 		  padding: 60px;
 		  text-align: center;
-		  background: #2d1d92;
+		  background: var (--primary-color);
 		  color: white;
 		  font-size: 30px;
 		}
@@ -54,7 +64,7 @@ li a {
 		        }
  .bar{
 		        	float: right;
-		        	background: ffffff;
+		        	background: var (e8e9ed);
 		            width: 100%;
 		        }
 .center {
@@ -64,11 +74,12 @@ li a {
   				width: 50%;
 			}
 .footer {
-  				background: #2d192;
+  				background: var (--primary-color);
   				padding: 10px;
   				text-align: center;
   				color: white;
 			}
+
 .para {
 				padding: 50px;
 			}
