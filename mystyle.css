@@ -1,11 +1,19 @@
 //darkmode switcher//
 :root {
 	--base-color: white ;
-	--base-variant: #e8e9ed ;
+	--base-variant: e8e9ed ;
 	--text-color: 111528
-	--secondary-text: #052f3d ;
-	--primary-color: #2d1d92 ;
-	--accent-color: #6658BD ;
+	--secondary-text: 052f3d ;
+	--primary-color: 2d1d92 ;
+	--accent-color: 6658BD ;
+}
+.darkmode{
+	--base-color: 000000 ;
+	--base-variant: 2d2d2d ;
+	--text-color: ffffff ;
+	--secondary-text: cedede ;
+	--primary-color: 120948 ;
+	--accent-color: 272248 ;	
 }
 //darkmode switcher//
 body {
@@ -21,7 +29,7 @@ img {
         	width: 75%;
         }
 button{
-		background-color: var (e8e9ed);
+		background-color: var (--base-variant);
 		border: 1px dark blue;
 		color:white;
 		padding: x20 px32;
@@ -50,7 +58,7 @@ li {
 li a {
 		  display: block;
 		  padding: 8px;
-		  background-color: var (e8e9ed);
+		  background-color: var (--base-variant);
 		}
 .header {
 		  padding: 60px;
@@ -64,7 +72,7 @@ li a {
 		        }
  .bar{
 		        	float: right;
-		        	background: var (e8e9ed);
+		        	background: var (--primary-color);
 		            width: 100%;
 		        }
 .center {
