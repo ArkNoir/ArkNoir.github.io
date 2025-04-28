@@ -64,7 +64,7 @@ li a {
 		  padding: 60px;
 		  text-align: center;
 		  background: var (--primary-color);
-		  color: white;
+		  color: var (--primary-color;
 		  font-size: 30px;
 		}
 .avatar {
