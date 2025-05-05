@@ -16,12 +16,37 @@
 	--accent-color: 272248 ;	
 }
 .LTD-button{
-  background-color: var (--accent-color)
+  background-color: var (--accent-color);
 }
+//this  style the dark mode button //
 #theme-switch{
   height: 20%
-  width: 20%	
-
+  width: 20%
+  padding: 0;
+  border-radius: 50%;
+  background-color: var (--base-variant);
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  position: fixed;
+  top: 20px
+  right: 20px
+}
+//icon color //
+#theme-switch svg{
+  fill: var (--primary-color);
+}
+//hide the sun icon in lightmode //
+#theme-switch svg:last-child{
+  display: none;
+}
+//hide the moon icon when in darkmode//
+.darkmode #theme-switch svg:first-child{
+  display: none;
+}
+//show the sun icon in darkmode //
+.darkmode #theme-switch svg:last-child{
+  display: block;
 }
 //darkmode switcher//
 body {
